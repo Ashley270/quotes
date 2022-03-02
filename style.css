@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quantico', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 40vw;
+    color: gainsboro;
+    background-color: teal;
+    border-radius: 20px 20px 0 0;
+}
+
+.container {
+    background-color: gainsboro;
+    height: 45vh;
+    border-radius: 20px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote-container{
+    font-size: 40px;
+}
+
+button{
+    height: 40px;
+    width: 15vw;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid teal;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 600ms ease-in-out ;
+    color: #005555;
+}
+
+button:hover{
+    background-color: teal;
+    color: ghostwhite;
+    border: 2px solid ghostwhite;
+}
